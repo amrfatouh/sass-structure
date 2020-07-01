@@ -1,0 +1,20 @@
+.normal-alert
+  text-transform: uppercase
+  border-color: black
+  border-style: solid
+  border-width: 2px
+  padding: 0 15px
+  margin-bottom: 15px
+  +border-radius(5px)
+  
+.green-alert
+  @extend .normal-alert
+  background-color: green
+  
+.yellow-alert
+  @extend .normal-alert
+  background-color: yellow
+  
+.red-alert
+  @extend .normal-alert
+  background-color: red
